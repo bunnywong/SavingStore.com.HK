@@ -1,0 +1,9 @@
+@import 'imports/mixins.less';
+body,
+html {
+  margin: 0;
+  padding: 0;
+}
+.center {
+  text-align: center;
+}

@@ -27,6 +27,7 @@
 <link rel="stylesheet" type="text/css" href="catalog/view/theme/arcu-pro/stylesheet/responsive.css" />
 <link rel="stylesheet" type="text/css" href="catalog/view/theme/arcu-pro/stylesheet/chosen.css" />
 <link rel="stylesheet" type="text/css" href="catalog/view/theme/arcu-pro/stylesheet/custom-scrollbar.css" />
+<link rel="stylesheet" type="text/css" href="catalog/view/theme/arcu-pro/stylesheet/my_style.css" />
 <?php if ($this->config->get('kuler_cp_settings') && $preset = $this->getChild('module/kulercp/usePreset')) { ?>
 <link rel="stylesheet" href="<?php echo $preset; ?>" />
 <?php } ?>
@@ -203,9 +204,13 @@ Please donate via PayPal to donate@opencart.com
 			<?php echo $custom_copyright; ?>
 			<?php } else { ?>
 			<!-- <?php echo $powered; ?> -->
-			<!-- Please do not remove following code or we can not support you with this product ! -->
-			<p>Powered by <a href="http://www.opencart.com" title="Opencart" target="_blank">Opencart</a><br />
-				Opencart theme designed by <a href="http://www.kulerthemes.com" title="KulerThemes">KulerThemes.com</a></p>
+
+			<div>
+				<p class="center">Tel: 2543 3110<br>
+				E-mail info@savingco.com.hk</p>
+				<p class="center">Copyright@2014 Saving CO</p>
+			</div>
+
 			<?php } ?>
 			<!-- block: Payment Icons -->
 			<?php if($this->config->get('kuler_payment_status') && $this->config->get('kuler_payment_items')) { ?>
