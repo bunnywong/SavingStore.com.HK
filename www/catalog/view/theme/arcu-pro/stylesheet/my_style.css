@@ -5,6 +5,9 @@
   display: none !important;
   background: red;
 }
+.primary-define .box-heading {
+  border-bottom: 0px;
+}
 #welcome,
 #search,
 #topbar > .links,
