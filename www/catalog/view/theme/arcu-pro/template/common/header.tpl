@@ -87,13 +87,13 @@ $(document).ready(function () {
 	  '.product-info select'	: {disable_search_threshold:1000},
 	  '.box-product select'		: {disable_search_threshold:1000}
 	}
-	
+
 	for (var selector in config) {
 	  $(selector).chosen(config[selector]).data('chosen');
 	}
 
 	if($('.kuler-finder select').length > 0) {
-		
+
 		var chosen = $(".kuler-finder select").chosen({disable_search_threshold: 100}).data('chosen');
 
 		if (chosen) {
@@ -137,6 +137,9 @@ $(document).ready(function () {
 				<?php } ?>
 			</div>
 		</div>
+
+		<?php include('my_banner.tpl'); ?>
+
 		<?php if (($kuler_finder = $this->config->get('kuler_finder')) && $kuler_finder['status']) { ?>
 		<?php echo $this->getChild('module/kuler_finder', $kuler_finder); ?>
 		<?php } else { ?>
@@ -193,6 +196,7 @@ $(document).ready(function () {
 				<?php } ?>
 			</div>
 		</div>
+
 		<!--
 OpenCart is open source software and you are free to remove the powered by OpenCart if you want, but its generally accepted practise to make a small donation.
 Please donate via PayPal to donate@opencart.com
@@ -201,7 +205,7 @@ Please donate via PayPal to donate@opencart.com
 			<?php if ($this->config->get('color') && $custom_copyright = $this->getChild('module/kulercp/getcustomcopyright')) { ?>
 			<?php echo $custom_copyright; ?>
 			<?php } else { ?>
-			<!-- <?php echo $powered; ?> --> 
+			<!-- <?php echo $powered; ?> -->
 			<!-- Please do not remove following code or we can not support you with this product ! -->
 			<p>Powered by <a href="http://www.opencart.com" title="Opencart" target="_blank">Opencart</a><br />
 				Opencart theme designed by <a href="http://www.kulerthemes.com" title="KulerThemes">KulerThemes.com</a></p>
@@ -220,7 +224,7 @@ Please donate via PayPal to donate@opencart.com
 		<!--
 OpenCart is open source software and you are free to remove the powered by OpenCart if you want, but its generally accepted practise to make a small donation.
 Please donate via PayPal to donate@opencart.com
-//--> 
+//-->
 	</div>
 </div>
 <div id="container">
