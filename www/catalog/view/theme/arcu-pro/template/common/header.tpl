@@ -23,7 +23,9 @@
 <?php } else { ?>
 <link rel="stylesheet" type="text/css" href="catalog/view/theme/arcu-pro/stylesheet/stylesheet.css" />
 <link rel="stylesheet" type="text/css" href="catalog/view/theme/arcu-pro/stylesheet/modules.css" />
+<!--
 <link rel="stylesheet" type="text/css" href="catalog/view/theme/arcu-pro/stylesheet/responsive.css" />
+-->
 <link rel="stylesheet" type="text/css" href="catalog/view/theme/arcu-pro/stylesheet/chosen.css" />
 <link rel="stylesheet" type="text/css" href="catalog/view/theme/arcu-pro/stylesheet/custom-scrollbar.css" />
 <?php if ($this->config->get('kuler_cp_settings') && $preset = $this->getChild('module/kulercp/usePreset')) { ?>
