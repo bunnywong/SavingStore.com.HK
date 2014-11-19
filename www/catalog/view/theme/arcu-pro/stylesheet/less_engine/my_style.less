@@ -1,6 +1,22 @@
 // arcu-pro/stylesheet/less_engine/my_style.css
 
 // --------------------------------------------------
-// Class define
+// Common
+
+	@yellow = #FBD606;
+	@black = #666;
+
+// --------------------------------------------------
+// Global
 
 .center{text-align: center;}
+
+// --------------------------------------------------
+// Import
+
+// Main content
+
+.home .details{display: none!important; background: red;}
+
+	@import sidebar.less
+
