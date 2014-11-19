@@ -1,0 +1,68 @@
+// Sidebar
+	#welcome,			// [Login / Create An Account]
+	#search,			// Search box
+	#topbar > .links,	 // [Wish List, Checkout, My a/c, Cart]
+	#menu,				// Some line of menu
+	#topbar				// Language option
+		{display: none;}
+
+	.mCustomScrollBox{background: white;}
+		#cart{background: @yellow}
+	.primary-define #powered{
+		color: @black;
+		background: transparent;
+	}
+
+	.sidebar-banners{
+		div{
+			min-height: 70px;
+			background-repeat: no-repeat;
+			background-position: center;
+			margin: 10px 0px 10px 0px;
+ // border: 1px solid gray;	// DEBUG
+		}
+
+		// Banner 1
+		#sidebar-member_offer{
+			height: 70px;
+			background-image: url("/catalog/view/theme/arcu-pro/image/my_img/menu/promotion-sel.png");
+		}
+		#sidebar-member_offer:hover{
+			background-image: url("/catalog/view/theme/arcu-pro/image/my_img/menu/promotion.png");
+		}
+
+		// Banner 2
+		#sidebar-suzuran{
+			height: 80px;
+			background-image: url("/catalog/view/theme/arcu-pro/image/my_img/menu/suzuran-sel.png");
+		}
+		#sidebar-suzuran:hover{
+			background-image: url("/catalog/view/theme/arcu-pro/image/my_img/menu/suzuran.png");
+		}
+
+		// Banner 3
+		#sidebar-goon{
+			height: 80px;
+			background-image: url("/catalog/view/theme/arcu-pro/image/my_img/menu/goon-sel.png");
+			background-position: 8px 0px;
+		}
+		#sidebar-goon:hover{
+			background-image: url("/catalog/view/theme/arcu-pro/image/my_img/menu/goon.png");
+			background-position: 8px 0px;
+		}
+	}
+
+	// ----- ----- ----- ----- -----
+	.fb_iframe_widget{
+		display: block!important;
+		text-align: center;
+		margin: 10px 0px 20px 0px;
+		iframe{height: 20px!important;} // Avoid user see share box
+	}
+
+	// ----- ----- ----- ----- -----
+	// Tag btn
+
+	#bottom > span.toggle,
+	#footer > span.toggle
+		{display: none!important;}

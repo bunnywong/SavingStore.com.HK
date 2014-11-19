@@ -1,0 +1,4 @@
+.home .details {
+  display: none !important;
+  background: red;
+}
