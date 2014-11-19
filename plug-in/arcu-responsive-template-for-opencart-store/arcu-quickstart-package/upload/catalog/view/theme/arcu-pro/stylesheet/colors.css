@@ -1,0 +1,426 @@
+/*--------------------------------------------------------------------------/
+* @Author		KulerThemes.com http://www.kulerthemes.com
+* @Copyright	Copyright (C) 2012 - 2013 KulerThemes.com. All rights reserved.
+* @License		KulerThemes.com Proprietary License
+/---------------------------------------------------------------------------*/
+
+/* =============== PREDEFINED COLORS - YELLOW =============== */
+/* DEFAULT HTML - LINK STYLES */
+.color-yellow a {
+	color: #FBD606;
+}
+/* DEFAULT HTML - BUTTONS */
+.color-yellow .button {
+	background-color: #FBD606;
+}
+/* DEFAULT HTML - SELECT */
+.color-yellow .chosen-container-single .chosen-single div b {
+	background-color: #FBD606;
+}
+/* HEADER */
+.color-yellow #toppanel #logo {
+	background-color: #FBD606;
+}
+.color-yellow #topbar #currency a {
+	background-color: #FBD606;
+}
+.color-yellow #topbar #welcome a:first-child:before {
+	background-color: #FBD606;
+}
+.color-yellow #topbar #welcome a:hover {
+	color: #FBD606;
+}
+.color-yellow #topbar .links a:hover {
+	color: #FBD606;
+}
+.color-yellow #header #cart .heading > a span:before {
+	background-color: #FBD606;
+}
+.color-yellow .mini-cart-info .cart-item-details {
+	color: #FBD606;
+}
+.color-yellow #search .button-search {
+	background-color: #FBD606;
+}
+/* MENU */
+.color-yellow .mainmenu li .toggle-child,
+.color-yellow .mainmenu li.expand .toggle-child {
+	background-color: #FBD606;
+}
+.color-yellow .mainmenu li:hover > a,
+.color-yellow .mainmenu li.active > a {
+	background-color: #FBD606;
+}
+/* BOX */
+.color-yellow .box-heading {
+	border-bottom: 1px solid #FBD606;
+}
+/* BOX PRODUCTS */
+.color-yellow .box-product .cart a:before {
+	background-color: #FBD606;
+}
+/* CATEGORY */
+.color-yellow .product-filter .display span {
+	color: #FBD606;
+}
+/* PRODUCT */
+.color-yellow .product-info .cart #button-cart:before {
+	background-color: #FBD606;
+}
+/* FOOTER */
+.color-yellow #footer {
+	background-color: #FBD606;
+}
+.color-yellow #footer .toggle {
+	background-color: #FBD606;
+}
+/* =============== PREDEFINED COLORS - BLUE =============== */
+/* DEFAULT HTML - LINK STYLES */
+.color-blue a {
+	color: #5EC4ED;
+}
+/* DEFAULT HTML - BUTTONS */
+.color-blue .button {
+	background-color: #5EC4ED;
+}
+/* DEFAULT HTML - SELECT */
+.color-blue .chosen-container-single .chosen-single div b {
+	background-color: #5EC4ED;
+}
+/* HEADER */
+.color-blue #toppanel #logo {
+	background-color: #5EC4ED;
+}
+.color-blue #topbar #currency a {
+	background-color: #5EC4ED;
+}
+.color-blue #topbar #welcome a:first-child:before {
+	background-color: #5EC4ED;
+}
+.color-blue #topbar #welcome a:hover {
+	color: #5EC4ED;
+}
+.color-blue #topbar .links a:hover {
+	color: #5EC4ED;
+}
+.color-blue #header #cart .heading > a span:before {
+	background-color: #5EC4ED;
+}
+.color-blue .mini-cart-info .cart-item-details {
+	color: #5EC4ED;
+}
+.color-blue #search .button-search {
+	background-color: #5EC4ED;
+}
+/* MENU */
+.color-blue .mainmenu li .toggle-child,
+.color-blue .mainmenu li.expand .toggle-child {
+	background-color: #5EC4ED;
+}
+.color-blue .mainmenu li:hover > a,
+.color-blue .mainmenu li.active > a {
+	background-color: #5EC4ED;
+}
+/* BOX */
+.color-blue .box-heading {
+	border-bottom: 1px solid #5EC4ED;
+}
+/* BOX PRODUCTS */
+.color-blue .box-product .cart a:before {
+	background-color: #5EC4ED;
+}
+/* CATEGORY */
+.color-blue .product-filter .display span {
+	color: #5EC4ED;
+}
+/* PRODUCT */
+.color-blue .product-info .cart #button-cart:before {
+	background-color: #5EC4ED;
+}
+/* FOOTER */
+.color-blue #footer {
+	background-color: #5EC4ED;
+}
+.color-blue #footer .toggle {
+	background-color: #5EC4ED;
+}
+/* =============== PREDEFINED COLORS - GREEN =============== */
+/* DEFAULT HTML - LINK STYLES */
+.color-green a {
+	color: #5AC184;
+}
+/* DEFAULT HTML - BUTTONS */
+.color-green .button {
+	background-color: #5AC184;
+}
+/* DEFAULT HTML - SELECT */
+.color-green .chosen-container-single .chosen-single div b {
+	background-color: #5AC184;
+}
+/* HEADER */
+.color-green #toppanel #logo {
+	background-color: #5AC184;
+}
+.color-green #topbar #currency a {
+	background-color: #5AC184;
+}
+.color-green #topbar #welcome a:first-child:before {
+	background-color: #5AC184;
+}
+.color-green #topbar #welcome a:hover {
+	color: #5AC184;
+}
+.color-green #topbar .links a:hover {
+	color: #5AC184;
+}
+.color-green #header #cart .heading > a span:before {
+	background-color: #5AC184;
+}
+.color-green .mini-cart-info .cart-item-details {
+	color: #5AC184;
+}
+.color-green #search .button-search {
+	background-color: #5AC184;
+}
+/* MENU */
+.color-green .mainmenu li .toggle-child,
+.color-green .mainmenu li.expand .toggle-child {
+	background-color: #5AC184;
+}
+.color-green .mainmenu li:hover > a,
+.color-green .mainmenu li.active > a {
+	background-color: #5AC184;
+}
+/* BOX */
+.color-green .box-heading {
+	border-bottom: 1px solid #5AC184;
+}
+/* BOX PRODUCTS */
+.color-green .box-product .cart a:before {
+	background-color: #5AC184;
+}
+/* CATEGORY */
+.color-green .product-filter .display span {
+	color: #5AC184;
+}
+/* PRODUCT */
+.color-green .product-info .cart #button-cart:before {
+	background-color: #5AC184;
+}
+/* FOOTER */
+.color-green #footer {
+	background-color: #5AC184;
+}
+.color-green #footer .toggle {
+	background-color: #5AC184;
+}
+/* =============== PREDEFINED COLORS - ORANGE =============== */
+/* DEFAULT HTML - LINK STYLES */
+.color-orange a {
+	color: #FFA51F;
+}
+/* DEFAULT HTML - BUTTONS */
+.color-orange .button {
+	background-color: #FFA51F;
+}
+/* DEFAULT HTML - SELECT */
+.color-orange .chosen-container-single .chosen-single div b {
+	background-color: #FFA51F;
+}
+/* HEADER */
+.color-orange #toppanel #logo {
+	background-color: #FFA51F;
+}
+.color-orange #topbar #currency a {
+	background-color: #FFA51F;
+}
+.color-orange #topbar #welcome a:first-child:before {
+	background-color: #FFA51F;
+}
+.color-orange #topbar #welcome a:hover {
+	color: #FFA51F;
+}
+.color-orange #topbar .links a:hover {
+	color: #FFA51F;
+}
+.color-orange #header #cart .heading > a span:before {
+	background-color: #FFA51F;
+}
+.color-orange .mini-cart-info .cart-item-details {
+	color: #FFA51F;
+}
+.color-orange #search .button-search {
+	background-color: #FFA51F;
+}
+/* MENU */
+.color-orange .mainmenu li .toggle-child,
+.color-orange .mainmenu li.expand .toggle-child {
+	background-color: #FFA51F;
+}
+.color-orange .mainmenu li:hover > a,
+.color-orange .mainmenu li.active > a {
+	background-color: #FFA51F;
+}
+/* BOX */
+.color-orange .box-heading {
+	border-bottom: 1px solid #FFA51F;
+}
+/* BOX PRODUCTS */
+.color-orange .box-product .cart a:before {
+	background-color: #FFA51F;
+}
+/* CATEGORY */
+.color-orange .product-filter .display span {
+	color: #FFA51F;
+}
+/* PRODUCT */
+.color-orange .product-info .cart #button-cart:before {
+	background-color: #FFA51F;
+}
+/* FOOTER */
+.color-orange #footer {
+	background-color: #FFA51F;
+}
+.color-orange #footer .toggle {
+	background-color: #FFA51F;
+}
+/* =============== PREDEFINED COLORS - VIOLET =============== */
+/* DEFAULT HTML - LINK STYLES */
+.color-violet a {
+	color: #F493AB;
+}
+/* DEFAULT HTML - BUTTONS */
+.color-violet .button {
+	background-color: #F493AB;
+}
+/* DEFAULT HTML - SELECT */
+.color-violet .chosen-container-single .chosen-single div b {
+	background-color: #F493AB;
+}
+/* HEADER */
+.color-violet #toppanel #logo {
+	background-color: #F493AB;
+}
+.color-violet #topbar #currency a {
+	background-color: #F493AB;
+}
+.color-violet #topbar #welcome a:first-child:before {
+	background-color: #F493AB;
+}
+.color-violet #topbar #welcome a:hover {
+	color: #F493AB;
+}
+.color-violet #topbar .links a:hover {
+	color: #F493AB;
+}
+.color-violet #header #cart .heading > a span:before {
+	background-color: #F493AB;
+}
+.color-violet .mini-cart-info .cart-item-details {
+	color: #F493AB;
+}
+.color-violet #search .button-search {
+	background-color: #F493AB;
+}
+/* MENU */
+.color-violet .mainmenu li .toggle-child,
+.color-violet .mainmenu li.expand .toggle-child {
+	background-color: #F493AB;
+}
+.color-violet .mainmenu li:hover > a,
+.color-violet .mainmenu li.active > a {
+	background-color: #F493AB;
+}
+/* BOX */
+.color-violet .box-heading {
+	border-bottom: 1px solid #F493AB;
+}
+/* BOX PRODUCTS */
+.color-violet .box-product .cart a:before {
+	background-color: #F493AB;
+}
+/* CATEGORY */
+.color-violet .product-filter .display span {
+	color: #F493AB;
+}
+/* PRODUCT */
+.color-violet .product-info .cart #button-cart:before {
+	background-color: #F493AB;
+}
+/* FOOTER */
+.color-violet #footer {
+	background-color: #F493AB;
+}
+.color-violet #footer .toggle {
+	background-color: #F493AB;
+}
+/* =============== PREDEFINED COLORS - RED =============== */
+/* DEFAULT HTML - LINK STYLES */
+.color-red a {
+	color: #FF7373;
+}
+/* DEFAULT HTML - BUTTONS */
+.color-red .button {
+	background-color: #FF7373;
+}
+/* DEFAULT HTML - SELECT */
+.color-red .chosen-container-single .chosen-single div b {
+	background-color: #FF7373;
+}
+/* HEADER */
+.color-red #toppanel #logo {
+	background-color: #FF7373;
+}
+.color-red #topbar #currency a {
+	background-color: #FF7373;
+}
+.color-red #topbar #welcome a:first-child:before {
+	background-color: #FF7373;
+}
+.color-red #topbar #welcome a:hover {
+	color: #FF7373;
+}
+.color-red #topbar .links a:hover {
+	color: #FF7373;
+}
+.color-red #header #cart .heading > a span:before {
+	background-color: #FF7373;
+}
+.color-red .mini-cart-info .cart-item-details {
+	color: #FF7373;
+}
+.color-red #search .button-search {
+	background-color: #FF7373;
+}
+/* MENU */
+.color-red .mainmenu li .toggle-child,
+.color-red .mainmenu li.expand .toggle-child {
+	background-color: #FF7373;
+}
+.color-red .mainmenu li:hover > a,
+.color-red .mainmenu li.active > a {
+	background-color: #FF7373;
+}
+/* BOX */
+.color-red .box-heading {
+	border-bottom: 1px solid #FF7373;
+}
+/* BOX PRODUCTS */
+.color-red .box-product .cart a:before {
+	background-color: #FF7373;
+}
+/* CATEGORY */
+.color-red .product-filter .display span {
+	color: #FF7373;
+}
+/* PRODUCT */
+.color-red .product-info .cart #button-cart:before {
+	background-color: #FF7373;
+}
+/* FOOTER */
+.color-red #footer {
+	background-color: #FF7373;
+}
+.color-red #footer .toggle {
+	background-color: #FF7373;
+}
