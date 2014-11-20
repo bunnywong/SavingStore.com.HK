@@ -4,7 +4,8 @@
 // Common
 
 	@yellow = #FBD606;
-	@black = #666;
+	@black 	= #666;
+	@gray	= #ddd;
 
 // --------------------------------------------------
 // Global
@@ -50,10 +51,19 @@
 		.cart > div:last-child	// [add2wish][add2compare][shareThis]
 			{display: none!important;}
 
+		// ----- ----- ----- ----- -----
 		.my_banner img{
 			display: block;
 			margin: 0px auto 0px auto;
 		}
+
+		// Product
+		h1{
+			font-weight: bold;
+			border-bottom: 3px solid @gray!important;
+			padding-bottom: 15px!important;
+		}
+		.description{}
 
 		.cart > div:first-child{	// Add to cart btn container
 			border-bottom: 0px!important;
