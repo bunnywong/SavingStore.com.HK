@@ -138,9 +138,35 @@ $(document).ready(function () {
 				<?php echo $text_logged; ?>
 				<?php } ?>
 			</div>
-		</div>
+		</div> <!-- topbar -->
 
 		<?php include('my_banner.tpl'); ?>
+
+		<!--
+			OpenCart is open source software and you are free to remove the powered by OpenCart if you want, but its generally accepted practise to make a small donation.
+			Please donate via PayPal to donate@opencart.com
+		//-->
+		<div id="powered" class="clearafter">
+			<?php if ($this->config->get('color') && $custom_copyright = $this->getChild('module/kulercp/getcustomcopyright')) { ?>
+			<?php echo $custom_copyright; ?>
+			<?php } else { ?>
+			<!-- <?php echo $powered; ?> -->
+			<!-- Please do not remove following code or we can not support you with this product ! -->
+			<p>Powered by <a href="http://www.opencart.com" title="Opencart" target="_blank">Opencart</a><br />
+				Opencart theme designed by <a href="http://www.kulerthemes.com" title="KulerThemes">KulerThemes.com</a></p>
+			<?php } ?>
+			<!-- block: Payment Icons -->
+			<?php if($this->config->get('kuler_payment_status') && $this->config->get('kuler_payment_items')) { ?>
+			<?php $payments = $this->config->get('kuler_payment_items'); ?>
+			<ul id="footer-payments" class="clearafter">
+				<?php foreach($payments as $k => $item) { ?>
+				<?php if($item['status'] == 0) continue; ?>
+				<li class="<?php echo $k ?>"><?php echo $item['link'] ?></li>
+				<?php } ?>
+			</ul>
+			<?php } ?>
+		</div> <!-- powered -->
+
 
 		<?php if (($kuler_finder = $this->config->get('kuler_finder')) && $kuler_finder['status']) { ?>
 		<?php echo $this->getChild('module/kuler_finder', $kuler_finder); ?>
@@ -150,7 +176,8 @@ $(document).ready(function () {
 				<div class="button-search"></div>
 				<input type="text" name="search" placeholder="<?php echo $text_search; ?>" value="<?php echo $search; ?>" />
 			</div>
-		</div>
+		</div> <!-- search -->
+
 		<?php } ?>
 		<?php if ($categories) { ?>
 		<div id="menu">
@@ -197,42 +224,17 @@ $(document).ready(function () {
 				<?php } ?>
 				<?php } ?>
 			</div>
-		</div>
+		</div> <!-- menu -->
+	</div> <!-- wrapper -->
+</div> <!-- header -->
 
-		<!--
-OpenCart is open source software and you are free to remove the powered by OpenCart if you want, but its generally accepted practise to make a small donation.
-Please donate via PayPal to donate@opencart.com
-//-->
-		<div id="powered" class="clearafter">
-			<?php if ($this->config->get('color') && $custom_copyright = $this->getChild('module/kulercp/getcustomcopyright')) { ?>
-			<?php echo $custom_copyright; ?>
-			<?php } else { ?>
-			<!-- <?php echo $powered; ?> -->
-			<!-- Please do not remove following code or we can not support you with this product ! -->
-			<p>Powered by <a href="http://www.opencart.com" title="Opencart" target="_blank">Opencart</a><br />
-				Opencart theme designed by <a href="http://www.kulerthemes.com" title="KulerThemes">KulerThemes.com</a></p>
-			<?php } ?>
-			<!-- block: Payment Icons -->
-			<?php if($this->config->get('kuler_payment_status') && $this->config->get('kuler_payment_items')) { ?>
-			<?php $payments = $this->config->get('kuler_payment_items'); ?>
-			<ul id="footer-payments" class="clearafter">
-				<?php foreach($payments as $k => $item) { ?>
-				<?php if($item['status'] == 0) continue; ?>
-				<li class="<?php echo $k ?>"><?php echo $item['link'] ?></li>
-				<?php } ?>
-			</ul>
-			<?php } ?>
-		</div>
-		<!--
-OpenCart is open source software and you are free to remove the powered by OpenCart if you want, but its generally accepted practise to make a small donation.
-Please donate via PayPal to donate@opencart.com
-//-->
-	</div>
-</div>
+
 <div id="container">
 <div id="container-inner" class="wrapper clearafter">
 <div id="notification">
 	<?php if ($error) { ?>
-	<div class="warning"><?php echo $error ?><img src="catalog/view/theme/default/image/close.png" alt="" class="close" /></div>
+	<div class="warning"><?php echo $error ?>
+		<img src="catalog/view/theme/default/image/close.png" alt="" class="close" />
+	</div>
 	<?php } ?>
 </div>
