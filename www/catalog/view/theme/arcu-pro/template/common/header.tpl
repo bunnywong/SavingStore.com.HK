@@ -60,6 +60,7 @@
 <script type="text/javascript" src="catalog/view/theme/arcu-pro/js/masonry.js"></script>
 <script type="text/javascript" src="catalog/view/theme/arcu-pro/js/chosen.js"></script>
 <script type="text/javascript" src="catalog/view/theme/arcu-pro/js/custom-scrollbar.js"></script>
+<script type="text/javascript" src="catalog/view/theme/arcu-pro/js/my_script.js"></script>
 <?php } ?>
 <?php foreach ($scripts as $script) { ?>
 <?php if($this->config->get('kuler_compress_script_type') == 'all' && strpos($script, 'catalog/view') === 0) { continue; } ?>
@@ -146,7 +147,7 @@ $(document).ready(function () {
 			OpenCart is open source software and you are free to remove the powered by OpenCart if you want, but its generally accepted practise to make a small donation.
 			Please donate via PayPal to donate@opencart.com
 		//-->
-		<div id="powered" class="clearafter">
+		<div id="powered" class="">
 			<?php if ($this->config->get('color') && $custom_copyright = $this->getChild('module/kulercp/getcustomcopyright')) { ?>
 			<?php echo $custom_copyright; ?>
 			<?php } else { ?>
