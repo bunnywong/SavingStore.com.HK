@@ -33,12 +33,6 @@
   color: #666;
   background: transparent;
 }
-#logo a {
-  width: 280px;
-}
-#logo a img {
-  width: 100%;
-}
 .sidebar-banners div {
   min-height: 70px;
   background-repeat: no-repeat;
