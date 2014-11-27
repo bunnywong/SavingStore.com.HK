@@ -6,6 +6,7 @@
 	@yellow = #FBD606;
 	@black 	= #666;
 	@gray	= #ddd;
+	@title	= #333;
 
 // --------------------------------------------------
 // Global
@@ -19,6 +20,10 @@
 			height		: auto!important;
 		}
 	}
+	// Avoid underline of item box
+	.primary-define a,
+	.primary-define a:hover
+		{color: transparent;}
 
 // --------------------------------------------------
 // Main content
@@ -36,8 +41,17 @@
 			margin-left	: 40px;
 		}
 		.box-product{	// Main container
+
+
 			.price{
 				text-align: right;
+			}
+			.name{
+				color: @title;
+				font-weight: bold;
+			}
+			.name:hover{
+				text-decoration: none;
 			}
 		}
 	}
