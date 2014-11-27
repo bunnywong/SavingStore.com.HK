@@ -103,18 +103,12 @@ body.home .box-product .name:hover {
 .fb_iframe_widget iframe {
   height: 20px !important;
 }
-#footer .mCustomScrollBox,
 #footer > span.toggle {
   background-color: #FBD606 !important;
 }
 #bottom .mCustomScrollBox {
   background-color: transparent;
 }
-body.detail_view .my_banner img {
-  display: block;
-  margin: 0px auto 0px auto;
-}
-.backend .div2,
 .backend #footer {
   display: none;
 }
