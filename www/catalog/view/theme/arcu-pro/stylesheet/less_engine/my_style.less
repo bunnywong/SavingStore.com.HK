@@ -25,7 +25,8 @@
 
 	.home .box-heading,	// Gap under banner
 	.home .rating,		// Items
-	.home .details		// Items
+	.home .details,		// Items
+	.home .description	// Items
 		{display: none!important;}
 
 	.home {
@@ -34,6 +35,9 @@
 			max-width	: 1115px;
 			margin-left	: 40px;
 		}
+		.box-product{	// Main container
+
+		}
 	}
 
 // --------------------------------------------------
@@ -41,14 +45,23 @@
 // --------------------------------------------------
 // Import
 
-	@import "sidebar.less";
+	//@import "sidebar.less";
 	@import "detail_view.less";
+
+// --------------------------------------------------
+// Backend
+	.backend{
+		.div2,
+		#footer > a
+			{display: none;}
+	}
 
 // --------------------------------------------------
 // Detail view
 	body.detail_view{
 		.review,
-		.cart > div:last-child	// [add2wish][add2compare][shareThis]
+		.cart > div:last-child,	// [add2wish][add2compare][shareThis]
+		#tabs > a:nth-child(2)	// [Reviews]
 			{display: none!important;}
 
 		// ----- ----- ----- ----- -----
@@ -68,5 +81,6 @@
 		.cart > div:first-child{	// Add to cart btn container
 			border-bottom: 0px!important;
 		}
+
 
 	}
