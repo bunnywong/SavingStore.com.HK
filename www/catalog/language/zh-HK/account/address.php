@@ -1,6 +1,6 @@
 <?php
 
-// Heading 
+// Heading
 $_['heading_title']     = '地址簿';
 
 // Text
@@ -20,6 +20,7 @@ $_['entry_address_2']   = '&nbsp;&nbsp;&nbsp;地址 (2):';
 $_['entry_postcode']    = '郵政編碼:';
 $_['entry_city']        = '所在市區:';
 $_['entry_country']     = '所在國家:';
+$_['entry_company_id']     = '所在國家:';
 $_['entry_zone']        = '地區/省份:';
 $_['entry_default']     = '&nbsp;&nbsp;&nbsp;默認地址:';
 

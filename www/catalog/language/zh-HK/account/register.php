@@ -1,6 +1,6 @@
 <?php
 
-// Heading 
+// Heading
 $_['heading_title']        = '用戶註冊';
 
 // Text
@@ -15,6 +15,7 @@ $_['text_agree']           = '我已經閱讀並同意條款 <a class="fancybox"
 
 // Entry
 $_['entry_firstname']      = '您的名字:';
+$_['entry_tax_id']      	 = '稅務號碼:';
 $_['entry_lastname']       = '您的姓氏:';
 $_['entry_email']          = '電子郵箱:';
 $_['entry_telephone']      = '聯繫電話:';
@@ -29,6 +30,7 @@ $_['entry_zone']           = '地區/省份:';
 $_['entry_newsletter']     = '訂閱信息:';
 $_['entry_password']       = '輸入密碼:';
 $_['entry_confirm']        = '確認密碼:';
+$_['entry_company_id']      = '公司帳號:';	// Bun
 
 // Error
 $_['error_exists']         = '警告: 該郵箱地址已被註冊、請換一個電子郵箱!';
