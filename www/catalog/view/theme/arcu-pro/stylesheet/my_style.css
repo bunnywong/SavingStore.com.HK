@@ -2,13 +2,16 @@
   text-align: center;
 }
 .my_banner img {
-  min-width: 500px !important;
+  min-width: 665px !important;
   width: auto !important;
   height: auto !important;
 }
-.primary-define a,
-.primary-define a:hover {
-  color: transparent;
+.primary-define .product-info .cart #button-cart:before,
+.primary-define .button {
+  background-color: #FBD606;
+}
+.primary-define .button:hover {
+  background-color: #444444;
 }
 .home .box-heading,
 .home .rating,
@@ -16,93 +19,39 @@
 .home .description {
   display: none !important;
 }
-.home .my_banner {
+body.home .my_banner {
   padding: 0px;
   max-width: 1115px;
   margin-left: 40px;
 }
-.home .box-product .price {
+body.home .box-content {
+  min-width: 800px;
+}
+body.home .box-product a {
+  color: transparent;
+}
+body.home .box-product .price {
   text-align: right;
 }
-.home .box-product .name {
+body.home .box-product .name {
   color: #333;
   font-size: 15px;
   font-weight: bold;
   letter-spacing: 0.5px;
 }
-.home .box-product .name:hover {
+body.home .box-product .name:hover {
   text-decoration: none;
-}
-#welcome,
-#search,
-#topbar > .links,
-#menu,
-#topbar {
-  display: none;
-}
-.mCustomScrollBox {
-  background: white;
-}
-#cart {
-  background: #FBD606;
-}
-.primary-define #powered {
-  color: #666;
-  background: transparent;
-}
-.sidebar-banners div {
-  min-height: 70px;
-  background-repeat: no-repeat;
-  background-position: center;
-  margin: 10px 0px 10px 0px;
-}
-.sidebar-banners #sidebar-login_form {
-  margin-top: 20px;
-  height: 220px;
-  background-image: url("/catalog/view/theme/arcu-pro/image/my_img/menu/temp_login.png");
-}
-.sidebar-banners #sidebar-member_offer {
-  height: 70px;
-  background-image: url("/catalog/view/theme/arcu-pro/image/my_img/menu/promotion-sel.png");
-}
-.sidebar-banners #sidebar-member_offer:hover {
-  background-image: url("/catalog/view/theme/arcu-pro/image/my_img/menu/promotion.png");
-}
-.sidebar-banners #sidebar-suzuran {
-  height: 80px;
-  background-image: url("/catalog/view/theme/arcu-pro/image/my_img/menu/suzuran-sel.png");
-}
-.sidebar-banners #sidebar-suzuran:hover {
-  background-image: url("/catalog/view/theme/arcu-pro/image/my_img/menu/suzuran.png");
-}
-.sidebar-banners #sidebar-goon {
-  height: 80px;
-  background-image: url("/catalog/view/theme/arcu-pro/image/my_img/menu/goon-sel.png");
-  background-position: 8px 0px;
-}
-.sidebar-banners #sidebar-goon:hover {
-  background-image: url("/catalog/view/theme/arcu-pro/image/my_img/menu/goon.png");
-  background-position: 8px 0px;
-}
-.fb_iframe_widget {
-  display: block !important;
-  text-align: center;
-  margin: 10px 0px 20px 0px;
-}
-.fb_iframe_widget iframe {
-  height: 20px !important;
-}
-#bottom > span.toggle,
-#footer > span.toggle {
-  display: none !important;
 }
 body.detail_view .my_banner img {
   display: block;
   margin: 0px auto 0px auto;
 }
 .backend .div2,
-.backend #footer > a {
+.backend #footer {
   display: none;
+}
+.backend #menu {
+  display: block !important;
 }
 body.detail_view .review,
 body.detail_view .cart > div:last-child,

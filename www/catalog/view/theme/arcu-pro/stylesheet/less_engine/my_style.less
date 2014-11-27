@@ -1,4 +1,5 @@
 // arcu-pro/stylesheet/less_engine/my_style.css
+// Version 1.5.6.4
 
 // --------------------------------------------------
 // Common
@@ -7,6 +8,7 @@
 	@black 	= #666;
 	@gray	= #ddd;
 	@title	= #333;
+	@btn_bg_hover = #444444;
 
 // --------------------------------------------------
 // Global
@@ -15,15 +17,21 @@
 
 	.my_banner{	// Global
 		img{
-			min-width	: 500px!important;
+			min-width	: 665px!important;
 			width 		: auto!important;
 			height		: auto!important;
 		}
 	}
-	// Avoid underline of item box
-	.primary-define a,
-	.primary-define a:hover
-		{color: transparent;}
+
+	.primary-define .product-info .cart #button-cart:before,	// Detail view
+	.primary-define .button										// Account/Address
+	{
+		background-color: @yellow;
+	}
+
+	.primary-define .button:hover{
+		background-color: @btn_bg_hover;
+	}
 
 // --------------------------------------------------
 // Main content
@@ -34,15 +42,21 @@
 	.home .description	// Items
 		{display: none!important;}
 
-	.home {
+	body.home {
 		.my_banner{
 			padding		: 0px;
 			max-width	: 1115px;
 			margin-left	: 40px;
 		}
+
+		.box-content{
+			min-width: 800px;
+		}
 		.box-product{	// Main container
 
-
+			a{
+				color: transparent;
+			}
 			.price{
 				text-align: right;
 			}
@@ -56,22 +70,24 @@
 				text-decoration: none;
 			}
 		}
-	}
-
-// --------------------------------------------------
+	}// !.home
 
 // --------------------------------------------------
 // Import
 
-	@import "sidebar.less";
+	// @import "sidebar.less";
 	@import "detail_view.less";
 
 // --------------------------------------------------
 // Backend
 	.backend{
 		.div2,
-		#footer > a
+		#footer
 			{display: none;}
+
+		#menu{
+			display: block!important;
+		}
 	}
 
 // --------------------------------------------------
@@ -99,6 +115,4 @@
 		.cart > div:first-child{	// Add to cart btn container
 			border-bottom: 0px!important;
 		}
-
-
-	}
+	}// !.detail_view
