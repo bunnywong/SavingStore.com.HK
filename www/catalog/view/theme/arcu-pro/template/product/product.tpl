@@ -99,6 +99,7 @@
 					<?php if ($minimum > 1) { ?>
 					<div class="minimum"><?php echo $text_minimum; ?></div>
 					<?php } ?>
+					<br /><span>產品簡介：</span><?php echo $meta_description; ?>
 				</div>
 				<?php if ($profiles): ?>
 				<div class="option">
@@ -255,6 +256,8 @@
 					<?php } ?>
 				</div>
 				<?php } ?>
+
+
 				<div class="cart">
 					<div>
 						<button class="button" id="button-cart" data-hover="<?php echo $button_cart; ?>"><span class="icon-basket-light"><?php echo $button_cart; ?></span></button>
