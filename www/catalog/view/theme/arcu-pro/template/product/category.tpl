@@ -90,7 +90,7 @@
 		<?php } ?>
 	</div>
 	<?php echo $content_bottom; ?></div>
-<?php echo $footer; ?> 
+<?php echo $footer; ?>
 <script type="text/javascript">
 $(document).ready(function () {
 	$('.box-product').masonry({
