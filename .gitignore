@@ -15,7 +15,4 @@ www/image/cache/*
 www/system/logs/*
 !/www/system/logs/index.html
 
-# CSS
-www/catalog/view/theme/arcu-pro/stylesheet/my_style.css
-
 www/vqmod/vqcache/
