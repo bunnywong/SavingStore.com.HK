@@ -49,7 +49,7 @@ body.home .box-product .name:hover {
 #topbar {
   display: none;
 }
-.mCustomScrollBox {
+#header .mCustomScrollBox {
   background: white;
 }
 #cart {
@@ -73,6 +73,8 @@ body.home .box-product .name:hover {
 .sidebar-banners #sidebar-member_offer {
   height: 70px;
   background-image: url("/catalog/view/theme/arcu-pro/image/my_img/menu/promotion-sel.png");
+  height: 0px;
+  display: none;
 }
 .sidebar-banners #sidebar-member_offer:hover {
   background-image: url("/catalog/view/theme/arcu-pro/image/my_img/menu/promotion.png");
@@ -101,9 +103,12 @@ body.home .box-product .name:hover {
 .fb_iframe_widget iframe {
   height: 20px !important;
 }
-#bottom > span.toggle,
+#footer .mCustomScrollBox,
 #footer > span.toggle {
-  display: none !important;
+  background-color: #FBD606 !important;
+}
+#bottom .mCustomScrollBox {
+  background-color: transparent;
 }
 body.detail_view .my_banner img {
   display: block;

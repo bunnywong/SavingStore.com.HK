@@ -1,12 +1,12 @@
 // Sidebar
 	#welcome,			// [Login / Create An Account]
 	#search,			// Search box
-	#topbar > .links,	 // [Wish List, Checkout, My a/c, Cart]
-	#menu,				// Some line of menu
+	#topbar > .links,	// [Wish List, Checkout, My a/c, Cart]
+	#menu,				// Menu
 	#topbar				// Language option
 		{display: none;}
 
-	.mCustomScrollBox{background: white;}
+	#header .mCustomScrollBox{background: white;}
 		#cart{background: @yellow}
 	.primary-define #powered{
 		color: @black;
@@ -34,6 +34,8 @@
 		#sidebar-member_offer{
 			height: 70px;
 			background-image: url("/catalog/view/theme/arcu-pro/image/my_img/menu/promotion-sel.png");
+			height: 0px;
+			display: none;		// TEMP
 		}
 		#sidebar-member_offer:hover{
 			background-image: url("/catalog/view/theme/arcu-pro/image/my_img/menu/promotion.png");
@@ -71,6 +73,13 @@
 	// ----- ----- ----- ----- -----
 	// Tag btn
 
-	#bottom > span.toggle,
+//	#bottom > span.toggle,
+	#footer .mCustomScrollBox,	// Second div
 	#footer > span.toggle
-		{display: none!important;}
+		{background-color: @yellow!important;}
+	#bottom .mCustomScrollBox{
+		background-color: transparent;
+	}
+
+
+
