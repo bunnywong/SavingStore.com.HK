@@ -1,20 +1,20 @@
 <?php
-
 // Heading
-$_['heading_title']      = '支票/匯票';
+$_['heading_title']      = 'Cheque / Money Order';
 
 // Text 
-$_['text_payment']       = '付款';
-$_['text_success']       = '成功：您已修改支票/匯票帳戶的詳細資料!';
+$_['text_payment']       = 'Payment';
+$_['text_success']       = 'Success: You have modified cheque / money order account details!';
 
 // Entry
-$_['entry_payable']      = '付款給:';
-$_['entry_order_status'] = '訂單狀態:';
-$_['entry_geo_zone']     = '區域群組:';
-$_['entry_status']       = '狀態:';
-$_['entry_sort_order']   = '排序:';
+$_['entry_payable']      = 'Payable To:';
+$_['entry_total']        = 'Total:<br /><span class="help">The checkout total the order must reach before this payment method becomes active.</span>';
+$_['entry_order_status'] = 'Order Status:';
+$_['entry_geo_zone']     = 'Geo Zone:';
+$_['entry_status']       = 'Status:';
+$_['entry_sort_order']   = 'Sort Order:';
 
 // Error
-$_['error_permission']   = '警告: 您沒有權限修改支票/匯票付款!';
-$_['error_payable']      = '付款給必填!';
+$_['error_permission']   = 'Warning: You do not have permission to modify payment cheque / money order!';
+$_['error_payable']      = 'Payable To Required!';
 ?>

@@ -1,4 +1,4 @@
 <?php
 // Text
-$_['text_title'] = '信用卡/ 轉賬卡(LiqPay)';
+$_['text_title'] = 'Credit Card / Debit Card (LiqPay)';
 ?>

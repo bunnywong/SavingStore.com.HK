@@ -1,6 +1,7 @@
 <?php
-// Text
-$_['entry_postcode'] = '郵編:';
-$_['entry_country']  = '國家:';
-$_['entry_zone']     = '地區 / 省份:';
+// Entry
+$_['text_title']     = 'Credit Card / Debit Card (Google Checkout)';
+
+// Error
+$_['error_shipping'] = 'Warning: Shipping method required!';
 ?>

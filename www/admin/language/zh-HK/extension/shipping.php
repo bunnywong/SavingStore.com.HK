@@ -1,5 +1,4 @@
 <?php
-
 // Heading
 $_['heading_title']      = '配送管理';
 
@@ -14,5 +13,5 @@ $_['column_sort_order']  = '排序';
 $_['column_action']      = '管理';
 
 // Error
-$_['error_permission']   = '警告: 您沒有權限修改配送管理!';
+$_['error_permission']   = '警告： 您沒有權限修改配送管理！';
 ?>

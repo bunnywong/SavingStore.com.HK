@@ -33,7 +33,7 @@ class Weight {
 			$to = $this->weights[$to]['value'];
 		} else {
 			$to = 0;
-		}	
+		}
 
 		return $value * ($to / $from);
 	}
@@ -52,6 +52,6 @@ class Weight {
 		} else {
 			return '';
 		}
-	}	
+	}
 }
 ?>

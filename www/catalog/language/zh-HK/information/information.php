@@ -1,5 +1,4 @@
 <?php
-
 // Text
-$_['text_error'] = '未找到信息頁!';
+$_['text_error'] = '未找到信息頁！';
 ?>

@@ -1,4 +1,4 @@
 <?php
 // Text
-$_['text_title'] = '信用卡 / 轉賬卡 (Moneybookers)';
+$_['text_title'] = 'Credit Card / Debit Card (Moneybookers)';
 ?>

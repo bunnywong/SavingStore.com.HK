@@ -14,7 +14,7 @@ $_['column_quantity']   = '購買數量';
 $_['column_total']      = '金額總計';
 
 // Entry
-$_['entry_date_start']  = '開始日期:';
-$_['entry_date_end']    = '結束日期:';
-$_['entry_status']      = '銷售狀態:';
+$_['entry_date_start']  = '開始日期：';
+$_['entry_date_end']    = '結束日期：';
+$_['entry_status']      = '銷售狀態：';
 ?>

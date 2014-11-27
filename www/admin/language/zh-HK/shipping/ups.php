@@ -1,10 +1,9 @@
 <?php
-
 // Heading
 $_['heading_title']                = 'UPS';
 
 // Text
-$_['text_shipping']                = '配送';
+$_['text_shipping']                = '配送管理';
 $_['text_success']                 = '成功：UPS設定更新完成!';
 $_['text_regular_daily_pickup']    = '定時每日收集';
 $_['text_daily_pickup']            = 'Daily Pickup';
@@ -58,7 +57,7 @@ $_['entry_key']                    = 'Access Key:<span class="help">Enter the XM
 $_['entry_username']               = '用戶名:<span class="help">請輸入您的UPS服務帳號.</span>';
 $_['entry_password']               = '密碼:<span class="help">請輸入您的UPS服務帳號密碼.</span>';
 $_['entry_pickup']                 = 'Pickup Method:<span class="help">How do you give packages to UPS (only used when origin is US)?</span>';
-$_['entry_packaging']              = '包裝類別:<span class="help">您貨物的包裝是甚麼樣的?</span>';
+$_['entry_packaging']              = '包裝類別:<span class="help">您貨物的包裝是什麼樣的?</span>';
 $_['entry_classification']         = 'Customer Classification Code:<span class="help">01 - If you are billing to a UPS account and have a daily UPS pickup, 03 - If you do not have a UPS account or you are billing to a UPS account but do not have a daily pickup, 04 - If you are shipping from a retail outlet (only used when origin is US)</span>';
 $_['entry_origin']                 = 'Shipping Origin Code:<span class="help">What origin point should be used (this setting affects only what UPS product names are shown to the user)</span>';
 $_['entry_city']                   = '始發城市:<span class="help">請輸入您的始發城市名.</span>';
@@ -68,13 +67,18 @@ $_['entry_postcode']               = '始發地的郵編:<span class="help">Ente
 $_['entry_test']                   = 'Test or Production Mode:<span class="help">Use this module in Test or Production mode?</span>';
 $_['entry_quote_type']             = 'Quote Type:<span class="help">Quote for Residential or Commercial Delivery.</span>';
 $_['entry_service']                = 'Services:<span class="help">Select the UPS services to be offered.</span>';
-$_['entry_display_weight']         = 'Display Delivery Weight:<br /><span class="help">Do you want to display the shipping weight? (e.g. Delivery Weight : 2.7674 Kg\'s)</span>';
-$_['entry_weight_code']            = 'Weight Code:<br /><span class="help">Allowed kgs or lbs. Make sure you match the weight class with the UPS accepted weight code.</span>';
+$_['entry_insurance']              = '啟用保險:<span class="help">Enables insurance with product total as the value</span>';
+$_['entry_display_weight']         = '顯示貨物重量:<br /><span class="help">您是否希望顯示重量? (例. 貨物重量: 2.7674 公斤)</span>';
+$_['entry_weight_code']            = '重量代碼:<br /><span class="help">請輸入ups認可的重量代碼，公斤或磅.</span>';
 $_['entry_weight_class']           = '重量類別:<span class="help">設置為公斤或磅.</span>';
-$_['entry_tax']                    = '稅率類別:';
+$_['entry_length_code']            = '尺寸代碼:<br /><span class="help">請輸入ups認可的尺寸代碼.</span>';
+$_['entry_length_class']           = '尺寸類型:<span class="help">請設置為公分或英吋.</span>';
+$_['entry_dimension']              = '包裝尺寸 (長 x 寬 x 高):<span class="help">這個是您的平均包裝盒尺寸，暫不支持個別項目的尺寸，所以你必須輸入像5x5x5平均尺寸.</span>';
+$_['entry_tax_class']              = '稅類:';
 $_['entry_geo_zone']               = '區域群組:';
 $_['entry_status']                 = '狀態:';
 $_['entry_sort_order']             = '排序:';
+$_['entry_debug']      		   			 = '調試模式:<br /><span class="help">接收發送數據將保存在系統日誌中</span>';
 
 // Error
 $_['error_permission']             = '警告：您沒有變更UPS設定的權限!';
@@ -84,4 +88,5 @@ $_['error_password']               = '密碼必填!';
 $_['error_city']                   = '始發城市必填!';
 $_['error_state']                  = '始發省份必填!';
 $_['error_country']                = '始發國必填!';
+$_['error_dimension']              = '請輸入平均包裝盒尺寸!';
 ?>

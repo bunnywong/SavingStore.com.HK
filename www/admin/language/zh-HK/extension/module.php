@@ -1,5 +1,4 @@
 <?php
-
 // Heading
 $_['heading_title']      = '模塊管理';
 
@@ -17,5 +16,5 @@ $_['column_sort_order']  = '排序';
 $_['column_action']      = '管理';
 
 // Error
-$_['error_permission']   = '警告: 您沒有權限修改模塊管理!';
+$_['error_permission']   = '警告： 您沒有權限修改模塊管理！';
 ?>

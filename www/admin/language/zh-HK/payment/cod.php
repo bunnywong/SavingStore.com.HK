@@ -1,18 +1,18 @@
 <?php
-
 // Heading
-$_['heading_title']      = '貨到付款設置';
+$_['heading_title']      = '貨到付款';
 
 // Text
-$_['text_payment']       = '付款';
-$_['text_success']       = '成功：您已成功更新貨到付款設置!';
+$_['text_payment']       = 'Payment';
+$_['text_success']       = 'Success: You have modified Cash On Delivery payment module!';
 
 // Entry
-$_['entry_order_status'] = '訂單狀態:';
-$_['entry_geo_zone']     = '區域群組:';
-$_['entry_status']       = '狀態:';
-$_['entry_sort_order']   = '排序:';
+$_['entry_total']        = 'Total:<br /><span class="help">The checkout total the order must reach before this payment method becomes active.</span>';
+$_['entry_order_status'] = 'Order Status:';
+$_['entry_geo_zone']     = 'Geo Zone:';
+$_['entry_status']       = 'Status:';
+$_['entry_sort_order']   = 'Sort Order:';
 
 // Error
-$_['error_permission']   = '警告: 您沒有權限更改貨到付款設置!';
+$_['error_permission']   = 'Warning: You do not have permission to modify payment Cash On Delivery!';
 ?>

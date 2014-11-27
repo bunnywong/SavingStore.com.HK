@@ -1,16 +1,16 @@
 <?php
 // Heading
-$_['heading_title']      = '免費結帳';
+$_['heading_title']      = 'Free Checkout';
 
 // Text
-$_['text_payment']       = '付款';
-$_['text_success']       = '成功：您已修改的免費結帳信息!';
+$_['text_payment']       = 'Payment';
+$_['text_success']       = 'Success: You have modified Free Checkout payment module!';
 
 // Entry
-$_['entry_order_status'] = '訂單狀態:';
-$_['entry_status']       = '狀態:';
-$_['entry_sort_order']   = '排序:';
+$_['entry_order_status'] = 'Order Status:';
+$_['entry_status']       = 'Status:';
+$_['entry_sort_order']   = 'Sort Order:';
 
 // Error
-$_['error_permission']   = '警告: 您沒有權限修改免費結賬付款!';
+$_['error_permission']   = 'Warning: You do not have permission to modify payment Free Checkout!';
 ?>

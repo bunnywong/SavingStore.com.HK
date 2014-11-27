@@ -1,4 +1,4 @@
 <?php
 // Text
-$_['text_title'] = '信用卡 / 轉賬卡(2Checkout)';
+$_['text_title'] = 'Credit Card / Debit Card (2Checkout)';
 ?>

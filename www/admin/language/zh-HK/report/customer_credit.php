@@ -13,6 +13,6 @@ $_['column_total']          = '金額總計';
 $_['column_action']         = '管理';
 
 // Entry
-$_['entry_date_start']      = '開始日期:';
-$_['entry_date_end']        = '結束日期:';
+$_['entry_date_start']      = '開始日期：';
+$_['entry_date_end']        = '結束日期：';
 ?>

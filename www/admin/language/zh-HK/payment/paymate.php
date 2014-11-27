@@ -1,20 +1,23 @@
 <?php
-
 // Heading
 $_['heading_title']      = 'Paymate';
 
 // Text 
-$_['text_payment']       = '付款';
-$_['text_success']       = '成功：您已修改Paymate帳戶的詳細資料!';
+$_['text_payment']       = 'Payment';
+$_['text_success']       = 'Success: You have modified Paymate account details!';
 
 // Entry
-$_['entry_username']     = '用戶名:';
-$_['entry_order_status'] = '訂單狀態:';
-$_['entry_geo_zone']     = '區域群組:';
-$_['entry_status']       = '狀態:';
-$_['entry_sort_order']   = '排序:';
+$_['entry_username']     = 'Paymate Username:';
+$_['entry_password']     = 'Password:<br /><span class="help">Just use some random password. This will be used to make sure the payment information is not interfered with after being sent to the payment gateway.</span>';
+$_['entry_test']         = 'Test Mode:';
+$_['entry_total']        = 'Total:<br /><span class="help">The checkout total the order must reach before this payment method becomes active.</span>';
+$_['entry_order_status'] = 'Order Status:';
+$_['entry_geo_zone']     = 'Geo Zone:';
+$_['entry_status']       = 'Status:';
+$_['entry_sort_order']   = 'Sort Order:';
 
 // Error
-$_['error_permission']   = '警告: 您沒有權限修改Paymate付款!';
-$_['error_username']     = 'Paymate 用戶名必填!';
+$_['error_permission']   = 'Warning: You do not have permission to modify payment Paymate!';
+$_['error_username']     = 'Paymate Username required!';
+$_['error_password']     = 'Password required!';
 ?>

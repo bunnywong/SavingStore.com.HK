@@ -17,8 +17,8 @@ $_['column_orders']     = '訂單數量';
 $_['column_total']      = '金額';
 
 // Entry
-$_['entry_date_start']  = '開始日期:';
-$_['entry_date_end']    = '結束日期:';
-$_['entry_group']       = '顯示分組:';
-$_['entry_status']      = '銷售狀態:';
+$_['entry_date_start']  = '開始日期：';
+$_['entry_date_end']    = '結束日期：';
+$_['entry_group']       = '顯示分組：';
+$_['entry_status']      = '銷售狀態：';
 ?>
