@@ -8,8 +8,8 @@ $(document).ready(function(){
 	// ---------- ---------- ---------- ---------- ----------
 	// Redirect to Forget pwd & Register
 
-	$('#frm_sidebar_login .btn_not_submit').click(function(){
-		$('#frm_sidebar_login').submit(function(){
+	$('.frm_sidebar_login .btn_not_submit').click(function(){
+		$('.frm_sidebar_login').submit(function(){
 			return false;
 		});
 

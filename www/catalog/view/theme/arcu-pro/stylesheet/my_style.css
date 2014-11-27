@@ -59,7 +59,7 @@ body.home .box-product .name:hover {
   color: #666;
   background: transparent;
 }
-#frm_sidebar_login .login-con {
+.login-con {
   width: 270px;
   box-sizing: border-box;
   padding: 10px;
@@ -74,7 +74,10 @@ body.home .box-product .name:hover {
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#4ea3e5',endColorstr='#1a85bf',GradientType=0);
   position: relative;
 }
-#frm_sidebar_login .member-title {
+.login-con .user-row span {
+  float: left;
+}
+.member-title {
   background: url("http://savingstore.com.hk/image/data/login/member-title.png");
   background-repeat: no-repeat;
   background-size: contain;
@@ -82,7 +85,7 @@ body.home .box-product .name:hover {
   width: 100%;
   margin-bottom: 5px;
 }
-#frm_sidebar_login .log-in-title {
+.log-in-title {
   background: url("http://savingstore.com.hk/image/data/login/log-in-title.png");
   background-repeat: no-repeat;
   background-size: contain;
@@ -90,7 +93,7 @@ body.home .box-product .name:hover {
   width: 100%;
   margin-bottom: 5px;
 }
-#frm_sidebar_login .username {
+.username {
   width: 100%;
   height: 25px;
   border: 1px #a8a8a8 solid;
@@ -101,7 +104,7 @@ body.home .box-product .name:hover {
   background: #eaeaea;
   margin: 5px 0;
 }
-#frm_sidebar_login .password {
+.password {
   width: 100%;
   height: 25px;
   border: 1px #a8a8a8 solid;
@@ -112,7 +115,7 @@ body.home .box-product .name:hover {
   background: #eaeaea;
   margin: 5px 0;
 }
-#frm_sidebar_login .half-btn-left {
+.half-btn-left {
   width: 120px;
   height: 25px;
   border-radius: 4px;
@@ -123,10 +126,10 @@ body.home .box-product .name:hover {
   background: #71bdf7;
   margin: 5px 5px 5px 0px;
 }
-#frm_sidebar_login .half-btn-left:hover {
+.half-btn-left:hover {
   background: #4199dd;
 }
-#frm_sidebar_login .half-btn-right {
+.half-btn-right {
   width: 120px;
   height: 25px;
   border-radius: 4px;
@@ -136,10 +139,10 @@ body.home .box-product .name:hover {
   background: #71bdf7;
   margin: 5px 0 5px 5px;
 }
-#frm_sidebar_login .half-btn-right:hover {
+.half-btn-right:hover {
   background: #4199dd;
 }
-#frm_sidebar_login .full-btn {
+.full-btn {
   width: 100%;
   height: 25px;
   border-radius: 4px;
@@ -149,21 +152,21 @@ body.home .box-product .name:hover {
   background: #71bdf7;
   margin: 5px 0;
 }
-#frm_sidebar_login .user-mail-title,
-#frm_sidebar_login .user-name-title,
-#frm_sidebar_login .user-point-title {
+.user-mail-title,
+.user-name-title,
+.user-point-title {
   font-size: 15px;
   color: white;
   margin: 0 5px;
 }
-#frm_sidebar_login .user-mail,
-#frm_sidebar_login .user-name,
-#frm_sidebar_login .user-point {
+.user-mail,
+.user-name,
+.user-point {
   font-size: 15px;
   color: white;
   margin: 0 5px;
 }
-#frm_sidebar_login .user-row {
+.user-row {
   float: left;
   width: 100%;
   margin: 5px 0;
